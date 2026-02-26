@@ -1,0 +1,12 @@
+[project]
+name = "characterai-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "pycharacterai>=2.2.50",
+    "python-dotenv>=1.2.1",
+    "uvicorn[standard]>=0.34.0",
+]
